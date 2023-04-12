@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css ">
+    <title>Codificador de text</title>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="assets/imagens/LogoA.svg" alt="logo com letra a">
+        </header>
+        <section>
+            <div id="input"><input onkeyup="escondeDiv()" type="text" id="digit" placeholder="Digite seu texto" /></div>
+            <div id="position">
+                <div id="exclamacaoAviso">
+                    <img src="assets/imagens/VectorExclamacao.svg" alt="exclamação">
+                    Apenas letras minúsculas e sem acentos.
+                </div>
+                <div id="button">
+                    <input type="button" value="Criptografar" id="btn_cript">
+                    <input type="button" value="Descriptografar" id="btn_descript">
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div id="card">
+                <img src="assets/imagens/menina-com-lupa.svg" alt="menina com lupa, olhando um diamante">
+                <h3>Nenhuma mensagem <br />encontrada</h3>
+                <p>Digite um texto que você deseja <br />criptografar ou descriptografar</p>
+            </div>
+            <div id="card2">
+                <textarea id="show" cols="40" rows="6"></textarea>
+                <button id="btn3">Copiar</button>
+            </div>
+        </aside>
+        <footer>
+            <p>&copy; Copyright - by <a target="_blank" href="https://github.com/leticiaslucena">Letícia S </a></p>
+        </footer>
+    </main>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
