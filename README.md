@@ -6,7 +6,7 @@ Projeto desenvolvido no curso da Alura
 * Imag
 *  Autor
 
-![codificador de texto](https://leticiaslucena.github.io/Codificador-de-texto-Challenge-OracleONE/)
+[codificador de texto](https://leticiaslucena.github.io/Codificador-de-texto-Challenge-OracleONE/)
 
 
 
